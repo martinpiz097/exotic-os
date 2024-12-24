@@ -1,0 +1,2 @@
+# revisar esta seccion, sobretodo el io scheduler
+https://wiki.archlinux.org/title/Improving_performance

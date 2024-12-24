@@ -1,0 +1,7 @@
+kernel
+	custom
+	parametros gcc
+
+boot loader
+
+la wiki de arch completa
