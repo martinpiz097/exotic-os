@@ -1,12 +1,17 @@
 kesboot-git
+wayland-git
+waybar-git
+wlogout-git
 hyprland-git
 hyprshade-git
 hyprpaper-git
 hyprlock-git
 hypridle-git
 xdg-desktop-portal-hyprland-git
+xdg-desktop-portal-wlr-git
 hyprwayland-scanner-git
 hyprsysteminfo-git
+waypaper-git
 grimblast-git
 nwg-panel-git
 wlr-randr
@@ -18,4 +23,7 @@ focalboard-bin
 intellij-idea-ultimate-edition
 lazydocker
 hollywood
-httpie-desktop-bin
+httpie-desktop-appimage
+clementine-git
+no-more-secrets
+nocodb-bin

@@ -128,3 +128,11 @@ nwg-dock-hyprland
 gwenview
 gnome-keyring
 qalculate-gtk
+inotify-tools
+gst-plugins-base
+gst-plugins-good
+gst-plugins-bad
+gst-plugins-ugly
+gst-libav
+gvfs
+gping
