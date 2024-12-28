@@ -136,3 +136,11 @@ gst-plugins-ugly
 gst-libav
 gvfs
 gping
+opencl-nvidia
+cuda
+cuda-tools
+cudnn
+ollama-cuda
+opencv-cuda
+python-cuda
+python-opencv-cuda

@@ -1,5 +1,9 @@
+yay-git
 kesboot-git
+wireplumber-git
 wayland-git
+xorg-xwayland-git
+wayland-protocols-git
 waybar-git
 wlogout-git
 hyprland-git
@@ -27,3 +31,6 @@ httpie-desktop-appimage
 clementine-git
 no-more-secrets
 nocodb-bin
+ffmpeg-decklink
+xf86-input-libinput-git
+superfile
