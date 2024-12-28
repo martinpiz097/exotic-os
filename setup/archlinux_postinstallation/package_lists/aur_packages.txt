@@ -1,5 +1,6 @@
 yay-git
 kesboot-git
+wlr-randr-git
 wireplumber-git
 pavucontrol-qt-git
 wayland-git
@@ -12,6 +13,8 @@ hyprshade-git
 hyprpaper-git
 hyprlock-git
 hypridle-git
+evince-git
+xdg-desktop-portal-gtk-git
 xdg-desktop-portal-hyprland-git
 xdg-desktop-portal-wlr-git
 hyprwayland-scanner-git
@@ -19,7 +22,6 @@ hyprsysteminfo-git
 waypaper-git
 grimblast-git
 nwg-panel-git
-wlr-randr
 ml4w-hyprland
 google-chrome
 brave-bin
@@ -39,3 +41,4 @@ neohtop
 wf-recorder-git 
 wf-recorder-gui
 kooha-git
+spotify
