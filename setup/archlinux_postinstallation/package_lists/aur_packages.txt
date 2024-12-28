@@ -1,6 +1,7 @@
 yay-git
 kesboot-git
 wireplumber-git
+pavucontrol-qt-git
 wayland-git
 xorg-xwayland-git
 wayland-protocols-git
@@ -34,3 +35,7 @@ nocodb-bin
 ffmpeg-decklink
 xf86-input-libinput-git
 superfile
+neohtop
+wf-recorder-git 
+wf-recorder-gui
+kooha-git

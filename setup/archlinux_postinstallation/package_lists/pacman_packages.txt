@@ -40,7 +40,6 @@ pipewire-x11-bell
 pipewire-zeroconf
 wireplumber
 gst-plugin-libcamera
-neofetch
 catimg
 chafa
 feh
