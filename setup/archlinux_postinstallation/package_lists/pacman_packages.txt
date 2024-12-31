@@ -142,3 +142,6 @@ ollama-cuda
 opencv-cuda
 python-cuda
 python-opencv-cuda
+intel-media-driver
+gstreamer-vaapi
+libvdpau-va-gl
