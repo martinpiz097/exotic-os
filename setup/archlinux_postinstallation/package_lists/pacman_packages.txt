@@ -1,5 +1,7 @@
 linux-tools
+#linux-headers
 archlinux-tools
+yelp
 man-db
 tree
 scx-scheds
@@ -145,3 +147,24 @@ python-opencv-cuda
 intel-media-driver
 gstreamer-vaapi
 libvdpau-va-gl
+dragon
+frei0r-plugins 
+gst-libav 
+gst-plugins-ugly 
+cairo gavl
+gimp
+gwenview
+kimageformats
+qt6-imageformats 
+grilo-plugins 
+libdmapsharing 
+lirc 
+zeitgeist 
+dleyna-server
+gnome-calendar
+qbittorrent
+gparted
+gnome-clocks
+gnome-weather
+kamoso
+onlyoffice-desktopeditors

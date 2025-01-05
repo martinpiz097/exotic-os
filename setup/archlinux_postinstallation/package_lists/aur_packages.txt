@@ -1,5 +1,5 @@
-yay-git
 kesboot-git
+udis86-git
 wlr-randr-git
 wireplumber-git
 pavucontrol-qt-git
@@ -13,7 +13,7 @@ hyprshade-git
 hyprpaper-git
 hyprlock-git
 hypridle-git
-evince-git
+hyprpicker-git
 xdg-desktop-portal-gtk-git
 xdg-desktop-portal-hyprland-git
 xdg-desktop-portal-wlr-git
@@ -23,6 +23,9 @@ waypaper-git
 grimblast-git
 nwg-panel-git
 ml4w-hyprland
+okular-git
+xed-git
+pitivi-git
 google-chrome
 brave-bin
 vscodium
@@ -45,3 +48,4 @@ kooha-git
 spotify
 megasync
 cava
+whatsdesk-git
