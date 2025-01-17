@@ -2,6 +2,8 @@
 sed -i 's/ParallelDownloads.*/ParallelDownloads = 100/' /etc/pacman.conf
 sed -i 's/#MAKEFLAGS.*/MAKEFLAGS="-j$(nproc)"/' /etc/makepkg.conf
 
+pipx install waypaper
+
 sudo pacman -Rs dolphin || true
 sudo pacman -Rs firefox || true
 
@@ -22,6 +24,11 @@ yay --version
 yay -S $(< package_lists/aur_packages.txt)
 
 sudo pacman -Rs nautilus-open-any-terminal || true
+
+sudo sh -c "echo -e '\n[warpdotdev]\nServer = https://releases.warp.dev/linux/pacman/\$repo/\$arch' >> /etc/pacman.conf"
+sudo pacman-key -r "linux-maintainers@warp.dev"
+sudo pacman-key --lsign-key "linux-maintainers@warp.dev"
+sudo pacman -Sy warp-terminal
 
 # falta graalvm
 

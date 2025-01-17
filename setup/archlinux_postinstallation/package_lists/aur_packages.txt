@@ -31,7 +31,6 @@ brave-bin
 vscodium
 focalboard-bin
 intellij-idea-ultimate-edition
-intellij-idea-ultimate-edition-jre
 lazydocker
 hollywood
 httpie-desktop-appimage
