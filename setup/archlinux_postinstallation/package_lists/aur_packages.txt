@@ -1,5 +1,4 @@
 kesboot-git
-udis86-git
 wlr-randr
 wireplumber
 pavucontrol-qt
@@ -9,7 +8,7 @@ wayland-protocols
 waybar
 wlogout
 hyprland
-hyprshade-git
+hyprshade
 hyprpaper
 hyprlock
 hypridle
@@ -37,14 +36,13 @@ httpie-desktop-appimage
 clementine-git
 no-more-secrets
 nocodb-bin
-ffmpeg-decklink
 xf86-input-libinput-git
 superfile
 neohtop
 wf-recorder-git 
 wf-recorder-gui
 kooha-git
-spotify
 megasync
 cava
-whatsdesk-git
+whatsdesk-bin
+onlyoffice

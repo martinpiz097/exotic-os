@@ -76,7 +76,6 @@ bat
 xterm
 devtools
 nemo
-gio
 cinnamon-translations
 ffmpegthumbnailer
 catdoc
@@ -166,4 +165,3 @@ gparted
 gnome-clocks
 gnome-weather
 kamoso
-onlyoffice-desktopeditors
