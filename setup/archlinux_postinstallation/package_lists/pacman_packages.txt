@@ -161,7 +161,9 @@ zeitgeist
 dleyna-server
 gnome-calendar
 qbittorrent
-gparted
+partitionmanager
 gnome-clocks
 gnome-weather
 kamoso
+lazygit
+rhythmbox
