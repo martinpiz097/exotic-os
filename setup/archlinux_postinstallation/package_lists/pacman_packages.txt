@@ -16,6 +16,8 @@ gtk4
 qt5
 qt6
 nwg-look
+nwg-panel
+nwg-menu
 qt6ct
 qemu-full
 libvirt
@@ -32,6 +34,7 @@ alsa-tools
 alsa-plugins
 qemu-audio-alsa
 fltk
+wireplumber
 pipewire-alsa
 pipewire-audio
 pipewire-ffado
@@ -43,6 +46,7 @@ pipewire-v4l2
 pipewire-x11-bell
 pipewire-zeroconf
 gst-plugin-libcamera
+pulsemixer
 catimg
 chafa
 feh
@@ -99,7 +103,6 @@ networkmanager
 bluez
 bluez-utils
 noto-fonts
-xdg-desktop-portal
 libnotify
 dunst
 kitty
@@ -121,6 +124,7 @@ squashfs-tools
 unace
 nwg-displays
 nwg-dock-hyprland
+nwg-panel
 gwenview
 gnome-keyring
 qalculate-gtk
@@ -163,3 +167,17 @@ gnome-weather
 kamoso
 lazygit
 rhythmbox
+wayland
+xorg-xwayland
+waybar
+hyprland
+hyprpaper
+hyprlock
+hypridle
+hyprpolkitagent
+hyprpicker
+hyprwayland-scanner 
+xdg-desktop-portal 
+xdg-desktop-portal-hyprland 
+xdg-desktop=portal-gtk
+kooha
