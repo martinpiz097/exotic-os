@@ -48,3 +48,5 @@ systemctl --user enable gcr-ssh-agent.socket
 
 systemctl --user start gcr-ssh-agent.service
 systemctl --user start gcr-ssh-agent.socket
+
+chsh -s /usr/bin/zsh
