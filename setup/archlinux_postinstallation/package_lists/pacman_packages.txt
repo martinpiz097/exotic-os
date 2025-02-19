@@ -18,6 +18,9 @@ qt6
 nwg-look
 nwg-panel
 nwg-menu
+nwg-icon-picker
+nwg-displays
+nwg-dock-hyprland
 qt6ct
 qemu-full
 libvirt
@@ -122,9 +125,6 @@ lhasa
 rpmextract
 squashfs-tools
 unace
-nwg-displays
-nwg-dock-hyprland
-nwg-panel
 gwenview
 gnome-keyring
 qalculate-gtk

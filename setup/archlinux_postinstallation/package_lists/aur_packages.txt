@@ -1,4 +1,3 @@
-kesboot-git
 wlr-randr
 pavucontrol-qt
 hyprshade
