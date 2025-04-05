@@ -34,9 +34,9 @@ EOF
 chmod +x "$APP_LAUNCHER_SH"
 
 DESKTOP_DIR="$HOME/.local/share/applications"
-EXEC_COMMAND="\"$APP_LAUNCHER_SH\""
 FILE_NAME="${APP_NAME// /_}.desktop"
 DESKTOP_FILE_PATH="$DESKTOP_DIR/$FILE_NAME"
+EXEC_COMMAND="\"$APP_LAUNCHER_SH\""
 
 mkdir -p "$DESKTOP_DIR"
 
@@ -51,6 +51,23 @@ StartupWMClass=$CLASS_NAME
 EOF
 
 chmod +x "$DESKTOP_FILE_PATH"
+
+BIN_NAME="${FILE_NAME%.desktop}"
+BIN_PATH="/usr/bin/$BIN_NAME"
+
+if [ "$(id -u)" -ne 0 ]; then
+  echo "🔐 Se requiere sudo para crear el ejecutable global en /usr/bin..."
+  sudo bash -c "echo 'gtk-launch $BIN_NAME' > '$BIN_PATH' && chmod +x '$BIN_PATH'"
+  if [ $? -eq 0 ]; then
+    echo "🚀 Ejecutable creado en: $BIN_PATH"
+  else
+    echo "❌ Falló la creación del ejecutable en /usr/bin"
+  fi
+else
+  echo "gtk-launch $BIN_NAME" > "$BIN_PATH"
+  chmod +x "$BIN_PATH"
+  echo "🚀 Ejecutable creado en: $BIN_PATH"
+fi
 
 echo "✅ App '$APP_NAME' creada en: $DESKTOP_FILE_PATH"
 echo "📄 Lanzador generado en: $APP_LAUNCHER_SH"
