@@ -49,4 +49,10 @@ systemctl --user enable gcr-ssh-agent.socket
 systemctl --user start gcr-ssh-agent.service
 systemctl --user start gcr-ssh-agent.socket
 
+sudo systemctl start systemd-resolved.service
+sudo systemctl enable systemd-resolved.service
+
 chsh -s /usr/bin/zsh
+
+sudo systemctl start tlp
+sudo systemctl enable tlp
