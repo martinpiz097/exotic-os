@@ -8,4 +8,5 @@ google-chrome-stable \
   --app="$app_url" \
   --class="$class_name" \
   --user-data-dir="$user_dir" \
-  --disable-gpu
+  --disable-gpu \
+  --ozone-platform=wayland

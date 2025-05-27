@@ -204,3 +204,4 @@ powerline-fonts
 vim-powerline
 which
 reflector
+xed

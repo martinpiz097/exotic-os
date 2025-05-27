@@ -7,7 +7,6 @@ grimblast-git
 wlogout
 ml4w-hyprland
 okular-git
-xed-git
 pitivi-git
 google-chrome
 brave-bin
