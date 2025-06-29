@@ -205,3 +205,14 @@ vim-powerline
 which
 reflector
 xed
+dosfstools 
+exfatprogs 
+ntfs-3g 
+xorg-xhost
+python-pandas
+python-numpy
+python-matplotlib
+python-seaborn
+python-tensorflow-cuda
+python-scikit-learn
+tensorflow-opt-cuda
