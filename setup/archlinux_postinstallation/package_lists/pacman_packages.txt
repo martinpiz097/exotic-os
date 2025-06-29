@@ -213,6 +213,6 @@ python-pandas
 python-numpy
 python-matplotlib
 python-seaborn
-python-tensorflow-cuda
+python-tensorflow-opt-cuda
 python-scikit-learn
 tensorflow-opt-cuda
