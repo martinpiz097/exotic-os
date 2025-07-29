@@ -216,3 +216,4 @@ python-seaborn
 python-tensorflow-opt-cuda
 python-scikit-learn
 tensorflow-opt-cuda
+hyprsunset
